@@ -7,9 +7,9 @@ $(document).ready(function() {
 
         $.ajax({
             method: 'POST',
-            url: $link.Attr('herf')
+            url: $link.attr('herf')
         }).done(function(data) {
             $('.js-like-article-count').html(data.hearts);
-        });
+        })
     });
 });
