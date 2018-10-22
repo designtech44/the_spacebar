@@ -10,6 +10,6 @@ $(document).ready(function() {
             url: $link.attr('herf')
         }).done(function(data) {
             $('.js-like-article-count').html(data.hearts);
-        })
+        });
     });
 });
